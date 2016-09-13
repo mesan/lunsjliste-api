@@ -32,6 +32,7 @@ repositories {
 }
 
 dependencies {
+    compile 'com.google.firebase:firebase-server-sdk:3.0.1'
     compile("org.springframework.boot:spring-boot-starter-web:1.4.0.RELEASE")
     compile("org.springframework.boot:spring-boot-starter-jetty:1.4.0.RELEASE")
     testCompile group: 'junit', name: 'junit', version: '4.11'
